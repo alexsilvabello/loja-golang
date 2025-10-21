@@ -1,4 +1,4 @@
-module github.com/pedrolessa-dev/loja-golang
+module github.com/alexsilvabello/loja-golang
 
 go 1.22.4
 
