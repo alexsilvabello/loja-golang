@@ -13,6 +13,7 @@ type Produto struct {
 
 func BuscarTodosOsProdutos() []Produto {
 	db := db.ConexaoDB()
+	
 
 	selectProdutos, err := db.Query("SELECT * FROM tbl_produtos ORDER BY id ASC")
 	if err != nil {
